@@ -1,0 +1,257 @@
+.row{
+    margin-left:0;
+    margin-right: 0;
+}
+
+#linea{
+   border-right:solid 0.5px #1DE9DB ;
+}
+
+#boltIcono, #moneyIcono{
+    font-size:40px;
+    color:#1de9b6;
+}
+
+.textoConsumo{
+    font-family: 'Poppins', sans-serif; 
+}
+
+#dollarIcono{
+    font-size:60px;
+    color:#1de9b6;
+}
+
+.valor{
+    font-size:60px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#unidad{
+color:#1de9b6 ;
+font-size:30px;
+}
+.info{
+    color:gray;
+    font-size: 18px;
+}
+
+
+
+/*CARD LIMITE STYLES*/
+#limite{/*Card para limite*/
+    background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
+}
+
+.textoLimite{
+    font-family: 'Poppins', sans-serif; 
+    color:white;
+}
+
+#limiteCol{
+    padding: 0;
+}
+
+#limiteTitulo{/*Titulo de card de limite*/
+    font-size:20px;
+    color:white;
+}
+
+#flagIcono{/*Icono de card de limite*/
+    font-size:50px;
+    color: white;
+  }
+
+.custom-control-input:checked ~ .custom-control-label::before {/*Switches de tipo de limite*/
+    color: #fff;
+    border-color:#1de9b6;
+    background-color: #1de9b6;
+}
+
+.custom-control-label::before {/*Switches de tipo de limite*/
+    position: absolute;
+    top: 0.25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    background-color: white;
+    border: white solid 1px;
+    color:white;
+}
+
+#hayLimite{
+    color:black;
+    font-size: 40px;
+}
+
+.barraTitulo{
+    color:black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.fondo{
+    border-radius: 1em 3em 2em;
+}
+
+.boton{/*Boton editar*/
+    border-radius: 1.5em 1.5em 1.5em 1.5em;
+    color:black;
+    border:none;
+    background-color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#noLimite{/*Texto cuando no existe limite*/
+    font-size: bold;
+    color: #161B19;    
+}
+
+#alertIcono{/*Icono cuando no existe limite*/
+    font-size:18px;
+    color:white;
+}
+
+.circulo{
+    
+        width: 70px;
+        height: 70px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        border: solid 3px #1de9b6;
+        font-size:14px;
+        padding:20px 12px 12px 12px;
+        color:black;
+}
+
+#costoKw{
+    font-size: 50px;
+}
+
+.cardParteDia{
+    margin-bottom: 5px;
+}
+
+.valorParteDia{
+    font-size:60px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.unidadParteDia{
+    font-size:30px;
+}
+
+.cardParteDia{
+    height: 200px;
+}
+
+.imgParteDia{
+    height: 100%;
+}
+
+.chart-container-dia {
+    position: relative;
+    margin: auto;
+    height: 50vh;
+    width: 55vw;
+  }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #linea{
+        border-right: none ;
+    }
+    #costoKw{
+        font-size:30px;
+    }    
+    /* .valorParteDia{
+        font-size:60px;
+    }
+    .unidadParteDia{
+        font-size:30px;
+    } */
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #linea{
+        border-right: none ;
+    }
+    #costoKw{
+        font-size:30px;
+    } 
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 40vh;
+        width: 75vw;
+    }
+    /* .valorParteDia{
+        font-size:60px;
+    }
+    .unidadParteDia{
+        font-size:30px;
+    } */
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #linea{
+        border-right: none ;
+    }
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 40vh;
+        width: 85vw;
+    }
+    /* .valorParteDia{
+        font-size:60px;
+    }
+    .unidadParteDia{
+        font-size:30px;
+    } */
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #linea{
+        border-right: none ;
+    }
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 30vh;
+        width: 60vw;
+    }
+    /* .valorParteDia{
+        font-size:60px;
+    }
+    .unidadParteDia{
+        font-size:30px;
+    }    */
+ }
+
+ @media (min-width: 1200px) and (max-width: 1580px){
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 45vh;
+        width: 65vw;
+    }
+    /* .valorParteDia{
+        font-size:30px;
+    }
+    .unidadParteDia{
+        font-size:15px;
+    }   */
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}

@@ -1,0 +1,112 @@
+#historialTitulo{
+color:#1DE9DB;
+font-size:30px;
+
+}
+
+.textoHistorial{
+    font-family: 'Poppins', sans-serif; 
+}
+
+#calendarIcono{
+    font-size:50px;
+}
+
+#encabezadoTabla{
+    /* background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%); */
+    border-bottom: dashed  2px #1DE9DB;
+}
+
+.encabezado{
+    /* color:white; */
+    font-size:15px;
+}
+
+.btn > i {
+  margin:0;
+}
+
+.botonFondo{
+     border-radius: 4em 4em 4em 4em;
+    width:30px;
+    height:30px;
+    padding:0;  
+    background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
+    border:none;
+}
+
+.botonFondo2{
+    border-radius: 4em 4em 4em 4em;
+   width:40px;
+   height:40px;
+   padding:0;  
+   background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
+   border:none;
+   font-size:20px;
+}
+
+.chart-container-dia {
+    position: relative;
+    margin: auto;
+    height: 50vh;
+    width: 55vw;
+  }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 40vh;
+        width: 80vw;
+    }
+    .btnDescargar{
+        display: none;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 40vh;
+        width: 75vw;
+    }
+    .btnDescargar{
+        display: none;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 40vh;
+        width: 85vw;
+    }
+    .btnDescargar{
+        display: none;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 30vh;
+        width: 60vw;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .chart-container{
+        position: relative;
+        margin: auto;
+        height: 45vh;
+        width: 65vw;
+    }
+}
