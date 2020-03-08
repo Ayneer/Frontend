@@ -1,5 +1,3 @@
-import * as serviceWorker from './serviceWorker';
-
 //React
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -30,5 +28,3 @@ const Main = (
 );
 
 ReactDOM.render(Main, document.getElementById('root'));
-
-serviceWorker.unregister();
