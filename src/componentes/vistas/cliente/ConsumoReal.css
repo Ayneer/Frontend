@@ -156,7 +156,7 @@ font-size:30px;
     position: relative;
     margin: auto;
     height: 50vh;
-    width: 55vw;
+    width: 100%;
   }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -166,7 +166,7 @@ font-size:30px;
     }
     #costoKw{
         font-size:30px;
-    }    
+    }   
     /* .valorParteDia{
         font-size:60px;
     }
@@ -248,10 +248,5 @@ font-size:30px;
     .unidadParteDia{
         font-size:15px;
     }   */
-    
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
     
 }

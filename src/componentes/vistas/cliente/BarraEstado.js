@@ -6,7 +6,11 @@ function BarraEstado({porcentajeLimite, valorActual, limite, inicio, unidadBarra
 
     let temaBarra = tema ? tema : "progress-bar-striped";
     let alturaBarra = altura ? altura : 16;
-
+    
+    if(porcentajeLimite > 100){
+        porcentajeLimite = 100;
+    }
+    
     return (
         <Row className="">
             <Col lg={12}>
