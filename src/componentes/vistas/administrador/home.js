@@ -588,22 +588,22 @@ export class Home extends Component {
                                             </div>
                                             <div className="card-header" style={{ textAlign: 'left', fontSize: '12px' }}>
                                                 <div className="form-group">
-                                                    <label forhtml="nombre">Nombre(s) del cliente</label>
+                                                    <label forhtml="nombre">Nombre(s)</label>
                                                     <input className="form-control form-control-sm inputUser" id="nombre" type="text" name="nombre" placeholder="Nombre(s) del cliente" value={nombre} onChange={this._teclearFormulario} disabled={btnEditarCliente} required></input>
                                                 </div>
 
                                                 <div className="form-group">
-                                                    <label forhtml="apellidos">Apellido(s) del cliente</label>
+                                                    <label forhtml="apellidos">Apellido(s)</label>
                                                     <input id="apellidos" className="form-control form-control-sm inputUser" type="text" name="apellidos" placeholder="Apellido(s) del cliente" value={apellidos} onChange={this._teclearFormulario} disabled={btnEditarCliente} required></input>
                                                 </div>
 
                                                 <div className="form-group">
-                                                    <label forhtml="correo">Correo del cliente</label>
+                                                    <label forhtml="correo">Correo</label>
                                                     <input id="correo" className="form-control form-control-sm inputUser" type="text" name="correo" placeholder="cliente@servicio.dominio" value={correo} onChange={this._teclearFormulario} disabled={btnEditarCliente} required />
                                                 </div>
 
                                                 <div className="form-group">
-                                                    <label forhtml="cedula">Cedula del cliente</label>
+                                                    <label forhtml="cedula">Cédula</label>
                                                     <input id="cedula" className="form-control form-control-sm inputUser" type="Number" name="cedula" value={+cedula} onChange={this._teclearFormulario} disabled={btnEditarCliente} required />
                                                 </div>
 

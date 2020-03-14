@@ -331,7 +331,7 @@ class consumoReal extends Component {
                             <div>
                                 <Row>
                                     <Col lg={9} id="limiteCol" >
-                                        <h3 id="limiteTitulo" className="textoLimite mt-4">Limite actual</h3>
+                                        <h3 id="limiteTitulo" className="textoLimite mt-4">Límite actual</h3>
                                     </Col>
                                     <Col lg={3}>
                                         <i id="flagIcono" className="feather icon-flag" />
@@ -350,7 +350,7 @@ class consumoReal extends Component {
                                 </div>
 
                             }
-                            <h6 className="textoLimite mt-3">Determina tu nuevo limite:</h6>
+                            <h6 className="textoLimite mt-3">Determina tu nuevo límite:</h6>
                             <div className="custom-control custom-switch mt-3">
                                 <input type="checkbox" className="custom-control-input switch" id="customSwitch1" checked={selectKw} onChange={this._selectKw} />
                                 <label className="custom-control-label textoLimite" htmlFor="customSwitch1">Kilowatts por hora</label>
@@ -366,7 +366,7 @@ class consumoReal extends Component {
                                 Guardar
                             </Button>
                             <Button className="mt-1 shadow-2 boton" onClick={this._cancelarLimite} variant="primary" size="sm">
-                                Eliminar limite
+                                Eliminar límite
                             </Button>
                         </Card.Body>
                     </Card>
@@ -456,7 +456,7 @@ class consumoReal extends Component {
                 </Col>
                 {/* GRÁFICA DE HISTORIAL ACTUAL */}
                 <Col xl={12} lg={12} md={12} sm={12} xm={12} className="mt-3">
-                    {historialArray && historialArray.length > 0 && <h3 className="textoConsumo mt-3" style={{textAlign: 'center'}} >Historico del período actual</h3>}
+                    {historialArray && historialArray.length > 0 && <h3 className="textoConsumo mt-3" style={{textAlign: 'center'}} >Histórico del período actual</h3>}
                     {historialArray && historialArray.length > 0 && <GraficaPromedio historial={historialArray} fechaConsumoInicial={fechaConsumoInicial} fechaConsumoFinal={fechaConsumoFinal} />}
                 </Col>
             </Row>

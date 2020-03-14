@@ -26,7 +26,7 @@ export class Navbar extends Component {
                         <div className="b-bg">
                             <i className="icon fa fa-lightbulb-o" />
                         </div>
-                        <span className="b-title">Menu</span>
+                        <span className="b-title">Menú</span>
                     </Link>
                 </div>
                 <div className="collapse navbar-collapse">
@@ -38,7 +38,7 @@ export class Navbar extends Component {
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu alignRight className='profile-notification'>
                                     <div className="pro-head">
-                                        <span>{nombre}</span>
+                                        <span>{nombre.toUpperCase()}</span>
                                         <Link to='#' className='dud-logout' tittle='Salir' onClick={()=> this.props.cerrarSesion(correo, admin)}>
                                             <i className='feather icon-log-out' />
                                         </Link>

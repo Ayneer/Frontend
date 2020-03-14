@@ -63,7 +63,7 @@ export class Menu extends Component {
                                             <span className="pcoded-micon">
                                                 <i className="icon feather icon-log-out"></i>
                                             </span>
-                                            <span className="pcoded-mtext">Cerrar sesion</span>
+                                            <span className="pcoded-mtext">Cerrar sesión</span>
                                         </NavLink>
                                     </li>
                                 </ul>
@@ -71,7 +71,7 @@ export class Menu extends Component {
                                 <ul className="nav pcoded-inner-navbar">
                                     {/* Item normal - inicio */}
                                     <li className="nav-item pcoded-menu-caption">
-                                        <label>Hola {usuario.nombre + ' ' + usuario.apellidos}</label>
+                                        <label>Hola {usuario.nombre + ' ' + usuario.apellidos}!</label>
                                     </li>
                                     <li className="nav-item">
                                         <NavLink to="/App/consumoReal" className="nav-link" exact={true} target="">
@@ -110,7 +110,7 @@ export class Menu extends Component {
                                             <span className="pcoded-micon">
                                                 <i className="icon feather icon-log-out"></i>
                                             </span>
-                                            <span className="pcoded-mtext">Cerrar sesion</span>
+                                            <span className="pcoded-mtext">Cerrar sesión</span>
                                         </NavLink>
                                     </li>
                                 </ul>

@@ -76,7 +76,7 @@ const HistorialDia = ({ fecha, historial, estado, ocultarVentana }) => {
                 maintainAspectRatio: false,
                 title: {
                     display: true,
-                    text: "Historico por hora"
+                    text: "Histórico por hora"
                 },
                 scales: {
                     yAxes: [{

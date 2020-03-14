@@ -188,7 +188,7 @@ class Ajustes extends Component {
                                     <input type="text" className="form-control" value={identificacion} name={identificacion} id="inputCC" readOnly onChange={this._teclearFormulario} />
                                 </div>
                                 <div className="form-group">
-                                    <label id="label-input" className="etiqueta" htmlFor="inputTelefono"> Telefono</label>
+                                    <label id="label-input" className="etiqueta" htmlFor="inputTelefono"> Teléfono</label>
                                     <input type="number" name="telefono" className="form-control" value={telefono} id="inputTelefono" onChange={this._teclearTelefono} placeholder="Telefono" />
                                 </div>
                                 <div className="form-group">

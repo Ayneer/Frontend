@@ -16,7 +16,7 @@ class HistorialAlertas extends Component {
 
         if (!alerta || (alerta && !alerta.historico) || (alerta && alerta.historico && alerta.historico.length === 0)) {
             return <div>No hay historial</div>
-        }else{
+        } else {
             for (let index = 0; index < alerta.historico.length; index++) {
                 const element = alerta.historico[index];
                 AlertasArray.unshift(element);
@@ -38,9 +38,9 @@ class HistorialAlertas extends Component {
                             <Col lg={12} key={index}>
                                 <Card>
                                     <Card.Body>
-                                        mensaje: {notificacion.mensaje}
-                                        <div className="mt-1" style={{fontSize: "11px"}}>
-                                            fecha de emisión: {notificacion.fecha}
+                                        <span><strong>Mensaje:</strong> {notificacion.mensaje}</span>
+                                        <div className="mt-1" style={{ fontSize: "11px" }}>
+                                            <span><strong>Fecha de emisión:</strong> {notificacion.fecha}</span>
                                         </div>
                                     </Card.Body>
                                 </Card>

@@ -333,7 +333,7 @@ class Historial extends Component {
                         <Table responsive hover width="100%">
                             <thead id="encabezadoTabla" style={{ textAlign: 'center' }}>
                                 <tr>
-                                    <th scope="col" className="textoHistorial encabezado">Periodo</th>
+                                    <th scope="col" className="textoHistorial encabezado">Período</th>
                                     <th scope="col" className="textoHistorial encabezado">Kwh</th>
                                     <th scope="col" className="textoHistorial encabezado">Costo unitario (kw/h)</th>
                                     <th scope="col" className="textoHistorial encabezado">Total ($)</th>
@@ -368,16 +368,16 @@ class Historial extends Component {
                                     <div style={{ marginBottom: '70px' }}>
                                         <Row>
                                             <Col >
-                                                <div>Energia App </div>
+                                                <div><strong>Energia App</strong></div>
                                             </Col>
                                             <Col className="ml-auto text-right">
-                                                {new Date().toLocaleDateString()}
+                                                <strong>{new Date().toLocaleDateString()}</strong>
                                             </Col>
                                         </Row>
                                         <hr />
                                     </div>
                                     <div style={{ marginBottom: '50px' }}>
-                                        Datos personales del usuario
+                                        <strong>Datos personales del usuario</strong>
                                                 <hr />
                                         <div><strong>Nombre: </strong>{usuario.apellidos + " " + usuario.nombre}</div>
                                         <div><strong>Cedula: </strong>{usuario.cedula}</div>
@@ -393,7 +393,7 @@ class Historial extends Component {
                             </div>
                             {mostratDatosReporte ?
                                 <div style={{ marginTop: '50px', marginBottom: '50px' }}>
-                                    Datos del mes
+                                    <strong>Datos del mes</strong>
                                             <hr />
                                     <div><strong>Nombre: </strong>{arrayNMes[(+mesSeleccionado.mes) - 1]}</div>
                                     <div><strong>Consumo total: </strong>{mesSeleccionado.consumoTotal + 'kwh'}</div>
